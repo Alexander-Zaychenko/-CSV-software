@@ -6,3 +6,4 @@ def data_pack(data):
         for item, count in item_count.items():
             packed_data.append(name + ',' + item + ',' + count)
     return packed_data
+
